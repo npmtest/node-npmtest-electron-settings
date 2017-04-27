@@ -1,6 +1,6 @@
 # npmtest-electron-settings
 
-#### test coverage for  [electron-settings (v3.0.14)](https://github.com/nathanbuchar/electron-settings#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-settings.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-settings) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-settings.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-settings)
+#### basic test coverage for  [electron-settings (v3.0.14)](https://github.com/nathanbuchar/electron-settings#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-settings.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-settings) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-settings.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-settings)
 
 #### A simple persistent user settings framework for Electron.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-electron-settings/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-electron-settings/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-electron-settings/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-electron-settings/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electron-settings/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electron-settings/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-electron-settings/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-electron-settings/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electron-settings/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electron-settings/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-electron-settings/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-electron-settings/build/coverage.html/index.html)
 
@@ -98,7 +98,8 @@
         "test:main": "electron-mocha tests",
         "test:renderer": "electron-mocha tests --renderer"
     },
-    "version": "3.0.14"
+    "version": "3.0.14",
+    "bin": {}
 }
 ```
 
